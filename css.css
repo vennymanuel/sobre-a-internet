@@ -200,10 +200,7 @@ picture .figcaption{
     
 
 @media (max-width:900px) {
-    header{
-        text-align: center;
-       
-    }
+   
     main{
         width:100%;
 
