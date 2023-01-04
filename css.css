@@ -1,0 +1,265 @@
+@font-face {
+    font-family: 'principal';
+    src: url('/fonts/Bebas_Neue/BebasNeue-Regular.ttf') format('opentype');
+}
+@font-face {
+    font-family:'bebas' ;
+    src: url('/fonts/Roboto/Roboto-BlackItalic.ttf');
+}
+:root{
+    --background:rgb(87, 84, 84);
+    --colorH1:green;
+    --fontH1:arial;
+    --width:600px;
+    --height:600px;
+    --space-litter:2em;
+    --font-inert:30px;
+    --font-destaque:'principal';
+    --font-h2:'bebas';
+}
+   
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+
+header{
+    background-image: linear-gradient(to bottom, rgb(5, 56, 65), rgb(17, 153, 227));
+    color: white;
+    font-weight: bolder;
+    min-height: 50px;
+    max-width: auto;
+    padding-bottom: 10px;
+    box-shadow: 0px 9px 10px rgba(106, 105, 105, 0.203);
+    
+}
+body{
+    background-color: rgb(158, 164, 159);
+  
+}
+
+header h1{
+    text-align: center;
+    padding-top: 8px;
+    font-family: var(--font-destaque);
+    text-shadow: 0px 0px 8px rgba(112, 110, 110, 0.318);
+    
+}
+
+
+main{
+    min-width: 300px;
+    background-color: white;
+    max-width: 1040px;
+    margin: auto;
+    text-align: justify;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px rgba(25, 25, 25, 0.712);
+
+    
+}
+main h2{
+    text-transform: uppercase;
+    margin: 10px 20px;
+    color: var(--background);
+    font-family:var(--font-h2) ;
+}
+.second{
+    padding-top: 16px;
+ 
+}
+main p{
+    margin: 20px 20px;
+    text-indent: 30px;
+    line-height: 1.4em;
+}
+main img{
+    width: 100%;
+}
+main a{
+    text-decoration: none;
+    color: rgb(18, 18, 220);
+
+   
+}
+main a:hover{
+    text-decoration: underline;
+}
+main strong{
+    color: #050505;
+}
+main ul{
+    list-style-position: inside;
+    margin-left: 20px;
+}
+.trabalho{
+    max-width: 570px;
+   
+    height: 230px;
+    display: block;
+    margin: auto;
+   
+    
+}
+.img1{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.imagem1{
+    border: 3px solid rgb(251, 250, 250);
+    padding: 6px;
+    box-shadow: 0px 6px 10px rgba(63, 62, 62, 0.76);
+
+}
+
+.imagem{
+    display: flex;
+    text-align: justify;
+
+}
+.imagem p {
+   max-width: 680px;
+}
+.imagem .img1{
+    max-width: 220px;
+    max-height: 121px;
+    margin-left: 36px;
+    
+    
+}
+.img11 {
+    max-width: 600px;
+    max-height: 300px;
+    margin: auto;
+    display: block;
+ }
+.quermais{
+    text-align: center;
+    
+    display: block;
+    margin: auto;
+    max-width: 520px;
+    background-color: rgba(211, 205, 205, 0.967);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.271);
+}
+.quermais{
+    margin-top: 60px;
+    text-align: justify;
+    padding: 2px 3px;
+}
+picture .figcaption{
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+.mais{
+    margin-top: 20px;
+    max-width: 530px;
+    padding: 1px 0px;
+}
+.infelz{
+    color: rgba(189, 20, 20, 0.689);
+    
+}
+.aolado{
+    display: flex;
+    text-align: justify;
+   
+}
+.aolado p{
+    max-width: 660px;
+}
+.aolado .img2{
+    width: 180px;
+    height: 240px;
+    border: 6px solid rgb(255, 255, 255);
+    box-shadow: 0px 6px 10px rgba(63, 62, 62, 0.887);
+    padding: 2px;
+   
+    margin-bottom: 20px;
+    
+}
+.span{
+    max-width: 660px;
+    margin-top: -80px;
+    margin-bottom: 80px;
+    
+}
+.aolado img{
+    width: 280px;
+    height: 180px;
+    border: 10px solid rgb(255, 255, 255);
+    box-shadow: 0px 6px 10px rgba(63, 62, 62, 0.887);
+    
+}
+
+    
+
+@media (max-width:900px) {
+    header{
+        text-align: center;
+       
+    }
+    main{
+        width:100%;
+
+
+
+    }
+
+   
+    main{
+        margin: auto;
+        position: relative;
+        align-items: center;
+        text-align: justify;
+    }
+  
+    .imagem{
+        flex-direction: column;
+       
+       
+    }
+    .imagem1{
+      
+        padding-left: 0px;
+        border: 0px;
+    }
+    .aolado{
+        flex-direction: column;
+       
+    }
+    
+    .img1{
+        display: block;
+        margin: auto;
+
+    }
+    .img12{
+        display: block;
+        margin: auto;
+
+    }
+    .img3{
+        margin-bottom: 100px;
+
+    }
+    .img2{
+        display: block;
+        margin: auto;
+        align-items: center;
+    }
+    .aolado p{
+        max-width: 100%;
+    }
+    .imagem .img1{
+        display: block;
+        align-items: center;
+        margin: auto;
+    }
+   
+}
